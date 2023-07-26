@@ -73,3 +73,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# ここに使うGemを記載
+# bundle installでここに記載したGemを実行してくれる
+gem "device"
+gem "refile", require: "refile/rails", github: "manfe/refile"
+gem "refile-mini_magick"
+gem "bulma-rails"
+
+gem "devise", "~> 4.9"
